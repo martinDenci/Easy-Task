@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6404D341DC86EE500DD6BE2 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D6404D331DC86EE500DD6BE2 /* Category.m */; };
+		D6404D371DC91EDC00DD6BE2 /* TableSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6404D361DC91EDC00DD6BE2 /* TableSectionHeader.xib */; };
+		D6404D3A1DC91F6900DD6BE2 /* TaskTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6404D391DC91F6900DD6BE2 /* TaskTableViewHeaderFooterView.m */; };
 		D6E599911D97F1D0005AA46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599901D97F1D0005AA46C /* main.m */; };
 		D6E599941D97F1D0005AA46C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599931D97F1D0005AA46C /* AppDelegate.m */; };
 		D6E599971D97F1D0005AA46C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599961D97F1D0005AA46C /* ViewController.m */; };
@@ -16,6 +19,12 @@
 		D6E599A21D97F1D0005AA46C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E599A01D97F1D0005AA46C /* LaunchScreen.storyboard */; };
 		D6E599AD1D97F1D0005AA46C /* Easy_ToDo_ListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599AC1D97F1D0005AA46C /* Easy_ToDo_ListTests.m */; };
 		D6E599B81D97F1D0005AA46C /* Easy_ToDo_ListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599B71D97F1D0005AA46C /* Easy_ToDo_ListUITests.m */; };
+		D6E599C71D97F552005AA46C /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599C61D97F552005AA46C /* AddTaskViewController.m */; };
+		D6E599CD1D97F595005AA46C /* DetailTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599CC1D97F595005AA46C /* DetailTaskViewController.m */; };
+		D6E599D01D97F5DF005AA46C /* EditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599CF1D97F5DF005AA46C /* EditTaskViewController.m */; };
+		D6E599D31D985143005AA46C /* TaskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599D21D985143005AA46C /* TaskTableViewCell.m */; };
+		D6E599D71D9AE535005AA46C /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599D61D9AE535005AA46C /* Task.m */; };
+		D6E599DA1D9AE563005AA46C /* Defines.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E599D91D9AE563005AA46C /* Defines.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6404D321DC86EE500DD6BE2 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		D6404D331DC86EE500DD6BE2 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		D6404D361DC91EDC00DD6BE2 /* TableSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableSectionHeader.xib; sourceTree = "<group>"; };
+		D6404D381DC91F6900DD6BE2 /* TaskTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		D6404D391DC91F6900DD6BE2 /* TaskTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewHeaderFooterView.m; sourceTree = "<group>"; };
 		D6E5998C1D97F1D0005AA46C /* Easy ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E599901D97F1D0005AA46C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6E599921D97F1D0005AA46C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +67,18 @@
 		D6E599B31D97F1D0005AA46C /* Easy ToDo ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy ToDo ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E599B71D97F1D0005AA46C /* Easy_ToDo_ListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Easy_ToDo_ListUITests.m; sourceTree = "<group>"; };
 		D6E599B91D97F1D0005AA46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E599C51D97F552005AA46C /* AddTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		D6E599C61D97F552005AA46C /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		D6E599CB1D97F595005AA46C /* DetailTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailTaskViewController.h; path = ../DetailTaskViewController.h; sourceTree = "<group>"; };
+		D6E599CC1D97F595005AA46C /* DetailTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailTaskViewController.m; path = ../DetailTaskViewController.m; sourceTree = "<group>"; };
+		D6E599CE1D97F5DF005AA46C /* EditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditTaskViewController.h; path = ../EditTaskViewController.h; sourceTree = "<group>"; };
+		D6E599CF1D97F5DF005AA46C /* EditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditTaskViewController.m; path = ../EditTaskViewController.m; sourceTree = "<group>"; };
+		D6E599D11D985143005AA46C /* TaskTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskTableViewCell.h; sourceTree = "<group>"; };
+		D6E599D21D985143005AA46C /* TaskTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskTableViewCell.m; sourceTree = "<group>"; };
+		D6E599D51D9AE535005AA46C /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		D6E599D61D9AE535005AA46C /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		D6E599D81D9AE563005AA46C /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		D6E599D91D9AE563005AA46C /* Defines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Defines.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6404D351DC91E9700DD6BE2 /* Xib Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6404D361DC91EDC00DD6BE2 /* TableSectionHeader.xib */,
+			);
+			name = "Xib Files";
+			sourceTree = "<group>";
+		};
 		D6E599831D97F1D0005AA46C = {
 			isa = PBXGroup;
 			children = (
@@ -103,16 +137,23 @@
 		D6E5998E1D97F1D0005AA46C /* Easy ToDo List */ = {
 			isa = PBXGroup;
 			children = (
+				D6E599D41D9AE514005AA46C /* Model */,
 				D6E599921D97F1D0005AA46C /* AppDelegate.h */,
 				D6E599931D97F1D0005AA46C /* AppDelegate.m */,
-				D6E599951D97F1D0005AA46C /* ViewController.h */,
-				D6E599961D97F1D0005AA46C /* ViewController.m */,
 				D6E599981D97F1D0005AA46C /* Main.storyboard */,
 				D6E5999E1D97F1D0005AA46C /* Assets.xcassets */,
 				D6E599A01D97F1D0005AA46C /* LaunchScreen.storyboard */,
 				D6E599A31D97F1D0005AA46C /* Info.plist */,
 				D6E5999B1D97F1D0005AA46C /* Easy_ToDo_List.xcdatamodeld */,
 				D6E5998F1D97F1D0005AA46C /* Supporting Files */,
+				D6E599951D97F1D0005AA46C /* ViewController.h */,
+				D6E599961D97F1D0005AA46C /* ViewController.m */,
+				D6E599CE1D97F5DF005AA46C /* EditTaskViewController.h */,
+				D6E599CF1D97F5DF005AA46C /* EditTaskViewController.m */,
+				D6E599C51D97F552005AA46C /* AddTaskViewController.h */,
+				D6E599C61D97F552005AA46C /* AddTaskViewController.m */,
+				D6E599CB1D97F595005AA46C /* DetailTaskViewController.h */,
+				D6E599CC1D97F595005AA46C /* DetailTaskViewController.m */,
 			);
 			path = "Easy ToDo List";
 			sourceTree = "<group>";
@@ -121,6 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				D6E599901D97F1D0005AA46C /* main.m */,
+				D6E599D11D985143005AA46C /* TaskTableViewCell.h */,
+				D6E599D21D985143005AA46C /* TaskTableViewCell.m */,
+				D6404D381DC91F6900DD6BE2 /* TaskTableViewHeaderFooterView.h */,
+				D6404D391DC91F6900DD6BE2 /* TaskTableViewHeaderFooterView.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +186,20 @@
 				D6E599B91D97F1D0005AA46C /* Info.plist */,
 			);
 			path = "Easy ToDo ListUITests";
+			sourceTree = "<group>";
+		};
+		D6E599D41D9AE514005AA46C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6404D351DC91E9700DD6BE2 /* Xib Files */,
+				D6E599D51D9AE535005AA46C /* Task.h */,
+				D6E599D61D9AE535005AA46C /* Task.m */,
+				D6E599D81D9AE563005AA46C /* Defines.h */,
+				D6E599D91D9AE563005AA46C /* Defines.m */,
+				D6404D321DC86EE500DD6BE2 /* Category.h */,
+				D6404D331DC86EE500DD6BE2 /* Category.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,11 +264,12 @@
 		D6E599841D97F1D0005AA46C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Martin Denci";
 				TargetAttributes = {
 					D6E5998B1D97F1D0005AA46C = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = TZ5THBDYRN;
 						ProvisioningStyle = Automatic;
 					};
 					D6E599A71D97F1D0005AA46C = {
@@ -250,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E599A21D97F1D0005AA46C /* LaunchScreen.storyboard in Resources */,
+				D6404D371DC91EDC00DD6BE2 /* TableSectionHeader.xib in Resources */,
 				D6E5999F1D97F1D0005AA46C /* Assets.xcassets in Resources */,
 				D6E5999A1D97F1D0005AA46C /* Main.storyboard in Resources */,
 			);
@@ -276,9 +337,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E599C71D97F552005AA46C /* AddTaskViewController.m in Sources */,
+				D6E599CD1D97F595005AA46C /* DetailTaskViewController.m in Sources */,
 				D6E599971D97F1D0005AA46C /* ViewController.m in Sources */,
+				D6404D341DC86EE500DD6BE2 /* Category.m in Sources */,
 				D6E5999D1D97F1D0005AA46C /* Easy_ToDo_List.xcdatamodeld in Sources */,
+				D6E599DA1D9AE563005AA46C /* Defines.m in Sources */,
+				D6E599D31D985143005AA46C /* TaskTableViewCell.m in Sources */,
+				D6404D3A1DC91F6900DD6BE2 /* TaskTableViewHeaderFooterView.m in Sources */,
+				D6E599D01D97F5DF005AA46C /* EditTaskViewController.m in Sources */,
 				D6E599941D97F1D0005AA46C /* AppDelegate.m in Sources */,
+				D6E599D71D9AE535005AA46C /* Task.m in Sources */,
 				D6E599911D97F1D0005AA46C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +421,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -399,6 +469,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -426,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZ5THBDYRN;
 				INFOPLIST_FILE = "Easy ToDo List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MDe.Easy-ToDo-List";
@@ -437,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZ5THBDYRN;
 				INFOPLIST_FILE = "Easy ToDo List/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "MDe.Easy-ToDo-List";
@@ -509,6 +582,7 @@
 				D6E599BE1D97F1D0005AA46C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6E599BF1D97F1D0005AA46C /* Build configuration list for PBXNativeTarget "Easy ToDo ListTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +591,7 @@
 				D6E599C11D97F1D0005AA46C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6E599C21D97F1D0005AA46C /* Build configuration list for PBXNativeTarget "Easy ToDo ListUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +600,7 @@
 				D6E599C41D97F1D0005AA46C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
